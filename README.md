@@ -1,9 +1,11 @@
-# propresenter-bilingual-songs
+# ProPresenter 7 Bilingual Song Builder — two languages on every slide
 
 Build **bilingual worship song files for ProPresenter 7** (Ukrainian + English on every slide)
 from plain lyrics — with [Claude Code](https://claude.com/claude-code) or straight from Python.
+A free tool for church media teams: paste lyrics and translation, get a ready `.pro` song
+with dual-language slides, groups and layouts. No manual copy-paste of every line.
 
-[🇺🇦 Українською нижче](#українською)
+[🇺🇦 Українською](#українською) · [🇷🇺 По-русски](#по-русски) · [🇳🇱 Nederlands](#nederlands) · [FAQ](#faq)
 
 ![layout](docs/layout.svg)
 
@@ -99,6 +101,26 @@ protobuf field map. Two pitfalls we hit, so you don't have to:
 Not affiliated with or endorsed by Renewed Vision. ProPresenter is their trademark.
 Back up your library before trying it.
 
+## FAQ
+
+**How do I show song lyrics in two languages in ProPresenter 7?**
+A common way is a slide (theme) with two text boxes — one per language, the same idea
+Renewed Vision shows for multi-translation Bible slides. Filling both boxes by hand for every
+slide is slow; this project creates such songs automatically from your lyrics.
+
+**Can I import a bilingual song (lyrics + translation) from a text file into ProPresenter?**
+With this project you write the song once as JSON (or just paste lyrics and translation to
+Claude) and get a `.pro` file with both languages on every slide, ready to open.
+
+**Does it work with other languages (Spanish, Russian, Dutch, …)?**
+Yes. "UA" is simply the primary language and "EN" the secondary one — any pair works.
+
+**Do I need Claude?** No. Claude Code makes it conversational ("add this song"), but the
+Python scripts work on their own with no extra packages.
+
+**Is it safe for my library?** It only adds new files and refuses to write while ProPresenter
+is open. Still, back up your library first.
+
 ## Author
 
 **Dmytro Kartinnik** — [dkartinnikdesigner.com](https://dkartinnikdesigner.com/)
@@ -159,4 +181,25 @@ python3 skill/new-x2-song/scripts/build_song.py examples/example_song.json "Exam
 
 Автор — **Дмитро Картіннік**, [dkartinnikdesigner.com](https://dkartinnikdesigner.com/).
 
-Проєкт не пов'язаний з Renewed Vision. Перед використанням зробіть резервну копію бібліотеки.
+Проєкт не пов'язаний з Renewed Vision.
+
+---
+
+## По-русски
+
+**Двуязычные песни для ProPresenter 7** — украинский (или любой основной язык) и английский
+перевод на каждом слайде, из обычного текста песни. Скилл для Claude Code и скрипт на Python
+для медиа-служения церкви: вставляете текст и перевод — получаете готовую песню `.pro` с
+группами (куплет, припев, бридж) и правильной раскладкой: 1 строка — макет X1, 2 строки — X2.
+Установка — как в разделе «Option A» выше: папку `skill/new-x2-song/` скопировать в
+`.claude/skills/` внутри библиотеки ProPresenter.
+
+---
+
+## Nederlands
+
+**Tweetalige liedteksten voor ProPresenter 7** — op elke dia de hoofdtaal (bijv. Oekraïens)
+en de Engelse vertaling, automatisch gemaakt van gewone songteksten. Een Claude Code-skill en
+Python-script voor het mediateam van de kerk: plak de tekst en de vertaling en krijg een kant-en-klaar
+`.pro`-lied met groepen (couplet, refrein, brug) en de juiste lay-out per dia.
+Installatie: zie "Option A" hierboven. Перед використанням зробіть резервну копію бібліотеки.
