@@ -1,0 +1,15 @@
+{
+  "title": "Example Song",
+  "groups": [
+    {"name": "Verse 1", "slides": [
+      {"ua": ["Перший рядок куплету", "Другий рядок куплету"], "en": ["First line of the verse", "Second line of the verse"]},
+      {"ua": ["Один рядок"], "en": ["A single line"]}
+    ]},
+    {"name": "Chorus", "slides": [
+      {"ua": ["Перший рядок приспіву", "Другий рядок приспіву"], "en": ["First line of the chorus", "Second line of the chorus"]}
+    ]},
+    {"name": "Bridge", "slides": [
+      {"ua": ["Міст"], "en": ["Bridge line"]}
+    ]}
+  ]
+}

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="340" viewBox="0 0 1000 340" font-family="Helvetica, Arial, sans-serif">
+<text x="0" y="18" font-size="15" fill="#888">1 UA line → X1 · 2 UA lines → X2</text>
+<g transform="translate(0,30)">
+<rect width="480" height="270" fill="#3a3a3a" rx="4"/>
+<rect y="109.8" width="480" height="50.4" fill="#000"/>
+<text x="240" y="143.0" font-size="22" font-weight="700" fill="#fff" text-anchor="middle">Один рядок</text>
+<rect x="184" y="218.0" width="112" height="17" fill="#000"/>
+<text x="240" y="232.0" font-size="13" font-weight="600" fill="#fff" text-anchor="middle">A single line</text>
+<text x="0" y="296" font-size="15" fill="#888">X1 — bar 201.4 px</text></g>
+<g transform="translate(520,30)">
+<rect width="480" height="270" fill="#3a3a3a" rx="4"/>
+<rect y="98.3" width="480" height="73.5" fill="#000"/>
+<text x="240" y="128.0" font-size="22" font-weight="700" fill="#fff" text-anchor="middle">Перший рядок</text>
+<text x="240" y="158.0" font-size="22" font-weight="700" fill="#fff" text-anchor="middle">Другий рядок</text>
+<rect x="197" y="210.0" width="86" height="17" fill="#000"/>
+<text x="240" y="224.0" font-size="13" font-weight="600" fill="#fff" text-anchor="middle">First line</text>
+<rect x="193" y="226.0" width="95" height="17" fill="#000"/>
+<text x="240" y="240.0" font-size="13" font-weight="600" fill="#fff" text-anchor="middle">Second line</text>
+<text x="0" y="296" font-size="15" fill="#888">X2 — bar 293.8 px</text></g>
+</svg>
